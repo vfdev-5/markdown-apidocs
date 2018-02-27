@@ -1,3 +1,11 @@
+
+.pytest*
+build/
+dist/
+*.egg-info/
+*.pyc
+
 # dev-env
 .idea/
 *.iml
+
