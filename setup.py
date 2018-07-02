@@ -14,7 +14,7 @@ setup(
     description=u"API doc generator in markdown",
     long_description=long_description,
     author="raghakot",
-    packages=find_packages(),
+    packages=find_packages(exclude=('tests',)),
     test_suite="tests",
     extras_require={
         'tests': [
